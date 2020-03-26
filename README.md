@@ -7,7 +7,8 @@ Deploying Rasa Bot over Google Cloud Platform using Docker.
 
 
 ## Instructions:
-### For deploying locally
+
+### For deploying locally:
 
 - clone this repository
 - run the below command within the project directory:
@@ -40,14 +41,17 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 - > sudo systemctl status docker
      
 #### Install [Docker-Compose](https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-on-ubuntu-16-04)
+
 - > sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
 - > sudo chmod +x /usr/local/bin/docker-compose
 - > docker-compose --version
 
 #### Clone the Docker App
--> git clone https://github.com/JiteshGaikwad/Rasa_Deployment
--> cd Rasa_Deployment
+
+- > git clone https://github.com/JiteshGaikwad/Rasa_Deployment
+- > cd Rasa_Deployment
 
 #### Build the Docker app and run the services:
--> docker-compose up -d
+
+- > docker-compose up -d
