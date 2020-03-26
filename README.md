@@ -61,3 +61,7 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 - Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
 
+Youtube Video: 
+
+https://youtu.be/qOHszxJsuGs
+
