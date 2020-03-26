@@ -54,4 +54,10 @@ https://www.youtube.com/watch?v=9C1Km6xfdMA
 
 #### Build the Docker app and run the services:
 
-- > docker-compose up -d
+- > docker-compose up --build
+
+- Check whether the services are up and running using below command:
+- > docker ps -a
+
+- Once you see all the services up and running, open the ip address of the machine in the browser and test the bot
+
